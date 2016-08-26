@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name"> partyking </string>
+    <string name="str_time"> set time </string>
+    <string name="str_real"> sure to delete it? </string>
+    <string name="str_rely"> OK </string>
+    <string name="str_cancel"> Cancel </string>
+    <string name="str_day"> Set Date </string>
+    <string name="str_DAY"> Day </string>
+    <string name="str_MON"> month </string>
+    <string name="str_Stroke"> itinerary </string>
+    <string name="str_enter"> Enter </string>
+    <string name="str_Title"> stroke rise </string>
+    <string name="str_Send"> submit data </string>
+    <string name="str_delete"> Delete </string>
+    <string name="str_Edit"> Edit </string>
+    <string name="str_View"> Preview </string>
+    <string name="str_text1"> start time </string>
+    <string name="str_text2"> repeat alarm sounded </string>
+    <string name="str_img"> load image </string>
+    <string name="str_text3"> seconds </string>
+    <string name="str_true_Search"> valid path </string>
+    <string name="str_fast_Search"> invalid path </string>
+    <string name="str_cancel_Search"> cancellation path </string>
+    <string name="str_set_Search"> Select Path </string>
+    <string name="str_where"> I want to go </string>
+    <string name="str_Recommend"> recommend </string>
+    <string name="str_Navigation"> tell me how to go </string>
+    <string name="str_title_info"> Event Title: </string>
+    <string name="str_info"> activities: </string>
+    <string name="str_time_info"> Activity: </string>
+    <string name="str_where_info"> Location: </string>
+    <string name="str_sw"> self pool </string>
+
+
+</resources>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/EHnew/EHnew.iml" filepath="$PROJECT_DIR$/EHnew/EHnew.iml" />
+      <module fileurl="file://$PROJECT_DIR$/RuleThrityFour/RuleThrityFour.iml" filepath="$PROJECT_DIR$/RuleThrityFour/RuleThrityFour.iml" />
+      <module fileurl="file://$PROJECT_DIR$/RuleThrityFourProject1120.iml" filepath="$PROJECT_DIR$/RuleThrityFourProject1120.iml" />
+    </modules>
+  </component>
+</project>
+

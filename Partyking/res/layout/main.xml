@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="fill_parent"
+	android:layout_height="fill_parent" android:orientation="vertical"
+    android:background="@drawable/bag">
+
+    <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent" android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true">
+        <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content" android:layout_gravity="left|center_vertical">
+            <Button
+                    android:layout_width="86dp"
+                    android:layout_height="43dp"
+                    android:text="@string/str_time"
+                    android:id="@+id/btn_time" android:layout_gravity="center_horizontal|top"
+                    android:textColor="#30adff"
+                    android:background="@drawable/btnn"/>
+
+            <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="@string/str_time"
+                    android:id="@+id/Tv_day"
+                    android:textColor="#77ff52"/>
+        </LinearLayout>
+        <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content" android:layout_gravity="left|center_vertical">
+            <Button
+                    android:layout_width="86dp"
+                    android:layout_height="43dp"
+                    android:text="@string/str_day"
+                    android:textColor="#30adff"
+                    android:background="@drawable/btnn"
+                    android:id="@+id/btn_day" android:layout_gravity="center_horizontal|top"/>
+            <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="@string/str_day"
+                    android:textColor="#77ff52"
+                    android:id="@+id/Tv_time"/>
+        </LinearLayout>
+    <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" android:layout_gravity="left|center_vertical">
+        <Button
+                android:layout_width="86dp"
+                android:layout_height="43dp"
+                android:text="@string/str_Title"
+                android:textColor="#30adff"
+                android:background="@drawable/btnn"
+                android:id="@+id/btn_Title" android:layout_gravity="center_horizontal|top"/>
+        <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="@string/str_Title"
+                android:textColor="#77ff52"
+                android:id="@+id/Tv_Title"/>
+    </LinearLayout>
+        <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content" android:layout_gravity="left|center_vertical">
+            <Button
+                    android:layout_width="86dp"
+                    android:layout_height="43dp"
+                    android:text="@string/str_Stroke"
+                    android:textColor="#30adff"
+                    android:background="@drawable/btnn"
+                    android:id="@+id/btn_Stroke" android:layout_gravity="center_horizontal|top"/>
+            <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="79dp"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="@string/str_Stroke"
+                    android:textColor="#77ff52"
+                    android:id="@+id/Tv_Stroke"
+                    android:editable="true"/>
+        </LinearLayout>
+        <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content" android:layout_gravity="left|center_vertical">
+            <Button
+                    android:layout_width="86dp"
+                    android:layout_height="43dp"
+                    android:text="@string/str_where"
+                    android:background="@drawable/btnn"
+                    android:textColor="#30adff"
+                    android:id="@+id/btn_where"/>
+            <Button android:layout_width="86dp" android:layout_height="43dp" android:text="@string/str_Recommend"
+                    android:background="@drawable/btnn" android:textColor="#30adff" android:id="@+id/recommend"/>
+            <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="@string/str_where"
+                    android:textColor="#77ff52"
+                    android:id="@+id/Tv_where"/>
+        </LinearLayout>
+        <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content" android:layout_gravity="left|center_vertical">
+            <Button
+                    android:layout_width="86dp"
+                    android:layout_height="43dp"
+                    android:text="@string/str_img"
+                    android:background="@drawable/btnn"
+                    android:textColor="#30adff"
+                    android:id="@+id/btn_img" android:layout_gravity="center_horizontal|top"/>
+            <ImageView
+                    android:layout_width="fill_parent"
+                    android:layout_height="208dp"
+                    android:id="@+id/imageView"
+                    android:layout_gravity="left|center_vertical"/>
+        </LinearLayout>
+
+        <Button
+                android:layout_width="fill_parent"
+                android:layout_height="43dp"
+                android:text="@string/str_Send"
+                android:textColor="#ffffff"
+                android:id="@+id/btn_Send" android:layout_gravity="left|center_vertical"/>
+
+        <Button
+                android:layout_width="fill_parent"
+                android:layout_height="43dp"
+                android:text="@string/str_delete"
+                android:id="@+id/btn_delete"
+                android:textColor="#ffffff"
+                android:layout_gravity="center"/>
+
+
+    </LinearLayout>
+</RelativeLayout>

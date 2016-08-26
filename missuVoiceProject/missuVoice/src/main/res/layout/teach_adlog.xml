@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/teach_bg">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="現在將你思念的人到你身邊，我開始帶領著您一步步\n的操作，最後您將建立第一件思念者系統\n\n第一步\n輸入思念者的名稱與選擇思念者的照片"
+        android:id="@+id/textView"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="22dp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/teach_next_btn"
+        android:background="@drawable/nexy"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/et_taito"
+        android:layout_above="@+id/teach_next_btn"
+        android:layout_alignLeft="@+id/textView"
+        android:layout_alignRight="@+id/textView" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:id="@+id/camera_btn"
+        android:background="@drawable/blue_camera"
+        android:layout_alignLeft="@+id/photo_btn"
+        android:layout_below="@+id/textView" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:id="@+id/photo_btn"
+        android:background="@drawable/pag_icon"
+        android:layout_above="@+id/et_taito"
+        android:layout_alignLeft="@+id/et_taito" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:scaleType="centerInside"
+        android:maxHeight="200px"
+        android:maxWidth="200px"
+        android:id="@+id/ivc"
+        android:layout_alignRight="@+id/textView"
+        android:layout_alignTop="@+id/camera_btn"
+        android:layout_alignBottom="@+id/photo_btn"
+        android:layout_toRightOf="@+id/camera_btn" />
+
+
+</RelativeLayout>

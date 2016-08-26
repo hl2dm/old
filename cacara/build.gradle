@@ -1,0 +1,30 @@
+buildscript {
+    repositories {
+        mavenCentral()
+    }
+    dependencies {
+        classpath 'com.android.tools.build:gradle:0.4'
+    }
+}
+apply plugin: 'android'
+
+dependencies {
+    compile files('libs/android-support-v4.jar')
+    compile files('libs/abtest.jar')
+    compile files('libs/aviary-headdless-libsrary.jar')
+    compile files('libs/aviary-library.jar')
+    compile files('libs/aviary-tracking.jar')
+    compile files('libs/horizontalvariablelistview.jar')
+    compile files('libs/imageviewtouch.jar')
+
+}
+
+android {
+    compileSdkVersion 17
+    buildToolsVersion "17.0.0"
+
+    defaultConfig {
+        minSdkVersion 7
+        targetSdkVersion 16
+    }
+}

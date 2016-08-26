@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Eへんたいブラウザ</string>
+    <string name="button_first">フロント</string>
+    <string name="button_last">最後</string>
+    <string name="classL">語系分類</string>
+    <string name="classT">標籤分類</string>
+    <string name="classS">漫種分類</string>
+    <string name="chin">中文</string>
+    <string name="jpne">日文</string>
+    <string name="eng">英文</string>
+    <string name="koo">韓文</string>
+    <string name="set">選択する</string>
+    <string name="New">ニュース</string>
+    <string name="TOP">厳選</string>
+ <string name="PAG">枚数の完成:</string>
+     <string name="end">全枚数の完成:</string>
+      <string name="RES">読む---</string>
+ <string name="WEL">いらっしゃいませ</string>
+   <string name="Nextpag">次ぎ</string>
+         <string name="New1">新たな始まり</string>
+       <string name="New2">内のページが表示されています</string>
+        <string name="New3">分類システムは再び削除、複数ページのサポート、いくつかのエラーを削除する</string>
+         <string name="News">ログを更新</string>
+                      <string name="New4">さよならを言うために、低品質のクイックプレビューを使用して、高精細の時代へようこそ</string>
+</resources>

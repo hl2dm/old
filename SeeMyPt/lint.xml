@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lint>
+    <issue id="ValidFragment">
+        <ignore path="src\com\example\seemypt\F3.java" />
+        <ignore path="src\eat\my\seemypt\CCF_take.java" />
+        <ignore path="src\eat\my\seemypt\F3.java" />
+    </issue>
+</lint>

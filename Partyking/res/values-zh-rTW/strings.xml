@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="app_name">partyking</string>
+	<string name="str_time">設定時間</string>
+    <string name="str_real">確定刪除嗎?</string>
+    <string name="str_rely">確定</string>
+    <string name="str_cancel">取消</string>
+	<string name="str_day">設定日期</string>
+    <string name="str_DAY">日</string>
+    <string name="str_MON">月</string>
+	<string name="str_Stroke">行程內容</string>
+    <string name="str_enter">請輸入</string>
+    <string name="str_Title">行程抬頭</string>
+	<string name="str_Send">送出資料</string>
+    <string name="str_delete">刪除</string>
+	<string name="str_Edit">編輯</string>
+    <string name="str_View">預覽</string>
+	<string name="str_text1">开始时间</string>
+	<string name="str_text2">重复响起的闹钟</string>
+    <string name="str_img">載入圖片</string>
+	<string name="str_text3">秒</string>
+    <string name="str_true_Search">有效路徑</string>
+    <string name="str_fast_Search">無效路徑</string>
+    <string name="str_cancel_Search">取消路徑</string>
+    <string name="str_set_Search">選擇路徑</string>
+    <string name="str_where">我要去哪</string>
+    <string name="str_Recommend">推薦一下</string>
+    <string name="str_Navigation">告訴我怎麼走</string>
+    <string name="str_title_info">活動標題:</string>
+    <string name="str_info">活動內容:</string>
+    <string name="str_time_info">活動時間:</string>
+    <string name="str_where_info">地點:</string>
+    <string name="str_sw">自強游泳池</string>
+
+
+</resources>

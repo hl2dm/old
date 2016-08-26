@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="aviary_default_effects">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../Aviary-SDK/res/raw/aviary_default_effects.zip!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

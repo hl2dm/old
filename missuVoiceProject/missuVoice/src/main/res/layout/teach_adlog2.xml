@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/teach_bg">
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/teach2_next_btn"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:background="@drawable/nexy" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/teach2_back_btn"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:background="@drawable/back" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="現在開始您將設定第一個回應語音|您好|，當你開始\n與思念者開始對話說出關鍵字您好的時候思念者將回\n復您預錄好的聲音"
+        android:id="@+id/textView"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="37dp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="開始錄製思念回音"
+        android:id="@+id/reco_start_btn"
+        android:layout_below="@+id/textView"
+        android:layout_alignLeft="@+id/textView" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="結束錄製思念回音"
+        android:id="@+id/reco_stop_btn"
+        android:layout_below="@+id/reco_start_btn"
+        android:layout_alignLeft="@+id/reco_start_btn" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="思念回音測試"
+        android:id="@+id/reco_play_btn"
+        android:layout_below="@+id/reco_stop_btn"
+        android:layout_alignLeft="@+id/reco_stop_btn" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Large Text"
+        android:id="@+id/tv_timer"
+        android:layout_alignTop="@+id/reco_start_btn"
+        android:layout_toRightOf="@+id/reco_start_btn" />
+
+</RelativeLayout>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">思念系統</string>
+    <string name="menu_settings">設定</string>
+    <string name="btSpeak">請說話</string>
+    <string name="title_speak">請說話...</string>
+    <string name="action_settings">請說話...</string>
+
+</resources>

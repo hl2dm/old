@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/missuVoice/missuVoice.iml" filepath="$PROJECT_DIR$/missuVoice/missuVoice.iml" />
+      <module fileurl="file://$PROJECT_DIR$/missuVoiceProject.iml" filepath="$PROJECT_DIR$/missuVoiceProject.iml" />
+      <module fileurl="file://$PROJECT_DIR$/reco/reco.iml" filepath="$PROJECT_DIR$/reco/reco.iml" />
+      <module fileurl="file://$PROJECT_DIR$/recordtest/recordtest.iml" filepath="$PROJECT_DIR$/recordtest/recordtest.iml" />
+    </modules>
+  </component>
+</project>
+

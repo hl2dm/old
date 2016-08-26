@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">E變態瀏覽器</string>
+    <string name="button_first">最前面</string>
+    <string name="button_last">至底</string>
+    <string name="classL">語系分類</string>
+    <string name="classT">標籤分類</string>
+    <string name="classS">漫種分類</string>
+    <string name="chin">中文</string>
+    <string name="jpne">日文</string>
+    <string name="eng">英文</string>
+    <string name="koo">韓文</string>
+     <string name="RUS">俄文</string>
+    <string name="set">進入</string>
+    <string name="New">最新消息</string>
+    <string name="TOP">變態精選</string>
+  <string name="PAG">完成張數:</string>
+    <string name="end">全部完成張數共有:</string>
+          <string name="RES">讀取中請稍候---</string>
+ <string name="WEL">歡迎使用</string>
+    <string name="Nextpag">下一頁</string>
+             <string name="New1">砍掉重練新的開始</string>
+       <string name="New2">新增內頁第一頁的觀看功能</string>
+        <string name="New3">分類系統再次刪除，支援多頁面，刪除一些錯誤</string>
+         <string name="News">更新日誌</string>
+    <string name="New4">歡迎來到高畫質時代，跟低畫質快速預覽說再見</string>
+                    <string name="nextpage">下一頁</string>
+                <string name="prviewpage">上一頁</string>
+                <string name="seach_btn">搜尋</string>
+                <string name="New5">1.改一點小BUG 2.增加換頁功能 3.搜尋系統回來了</string>
+                <string name="fanle">分類與搜尋</string>
+                 <string name="rape">強姦</string>
+                  <string name="big_breasts">大奶</string>
+                   <string name="bikini">比基尼</string>
+                   <string name="swimsuit">泳裝</string>
+                   <string name="bike_shorts">熱褲</string>          
+</resources>

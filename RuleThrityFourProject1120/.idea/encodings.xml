@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding" useUTFGuessing="true" native2AsciiForPropertiesFiles="false">
+    <file url="file://$PROJECT_DIR$/RuleThrityFour/src/main/java/dm/book/rulethirtyfour/activity/jd.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/RuleThrityFour/src/main/java/dm/book/rulethirtyfour/adapter/MyGridViewAdapter.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/RuleThrityFour/src/main/java/dm/book/rulethirtyfour/teach.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/RuleThrityFour/src/main/java/dm/book/rulethirtyfour/utility/BitmapUtilities.java" charset="UTF-8" />
+  </component>
+</project>
+

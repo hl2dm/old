@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="@drawable/indbg">
+
+    <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true">
+
+        <Button
+                android:layout_width="113dp"
+                android:layout_height="59dp"
+                android:text="編輯行程"
+                android:id="@+id/btn_edit_add"
+                android:layout_gravity="center"
+                android:background="@drawable/btnn"
+                android:textColor="#7ecdff"
+                android:layout_below="@+id/button"
+                android:layout_alignParentLeft="true"
+                android:layout_marginLeft="8dp"/>
+
+        <Button
+                android:layout_width="113dp"
+                android:layout_height="59dp"
+                android:text="安排行程"
+                android:id="@+id/btn_new_add"
+                android:background="@drawable/btnn"
+                android:layout_marginLeft="8dp"
+                android:layout_alignParentLeft="true"
+                android:textColor="#7ecdff"
+                android:layout_alignRight="@+id/button2"/>
+
+        <Button
+                android:layout_width="113dp"
+                android:layout_height="59dp"
+                android:text="最新活動"
+                android:textColor="#7ecdff"
+                android:background="@drawable/btnn"
+                android:id="@+id/btn_news"
+                android:layout_marginLeft="8dp"/>
+    </LinearLayout>
+
+</RelativeLayout>

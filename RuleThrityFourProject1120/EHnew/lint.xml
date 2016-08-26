@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lint>
+    <issue id="ValidFragment">
+        <ignore path="src\cool\dm\ehbrowser\F3.java" />
+        <ignore path="src\cool\dm\ehbrowser\Viewpage.java" />
+        <ignore path="src\cool\dm\ehbrowser\Viewpage2.java" />
+        <ignore path="src\cool\dm\ehbrowser\Viewpage3.java" />
+        <ignore path="src\cool\dm\ehbrowser\Viewpage_lung.java" />
+        <ignore path="src\cool\dm\ehbrowser\bookon.java" />
+    </issue>
+</lint>

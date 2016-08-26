@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent" android:layout_height="match_parent"
+	android:orientation="horizontal"
+        >
+
+    <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="82dp"
+            android:id="@+id/imageView"
+            android:background="@drawable/banner"/>
+
+    <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+
+
+    <ImageView
+		android:src="@drawable/a1"
+		android:layout_height="63dp"
+		android:layout_width="50dp"
+		android:id="@+id/img"
+            ></ImageView>
+		<LinearLayout
+			android:id="@+id/linearLayout1"
+			android:orientation="vertical"
+			android:layout_height="wrap_content"
+			android:layout_width="wrap_content">
+			<TextView
+				android:layout_height="wrap_content"
+				android:layout_width="204dp"
+				android:text="TextView"
+				android:id="@+id/iifo"></TextView>
+
+            <TextView
+                    android:layout_height="wrap_content"
+                    android:layout_width="fill_parent"
+                    android:text="TextView"
+                    android:id="@+id/title"/>
+
+            <TextView
+				android:layout_height="wrap_content"
+				android:layout_width="fill_parent"
+				android:text="TextView"
+				android:id="@+id/info"></TextView>
+
+            <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:text="Small Text"
+                    android:id="@+id/infoo"
+                    android:layout_gravity="left|center_vertical"/>
+        </LinearLayout>
+
+    <Button
+		android:layout_height="41dp"
+		android:layout_width="59dp"
+		android:text="@string/str_View"
+		android:id="@+id/view_btn"
+        android:background="@drawable/btnn"
+        android:textColor="#51a8ff"></Button>
+
+    <Button
+            android:layout_width="59dp"
+            android:layout_height="41dp"
+            android:text="@string/str_Edit"
+            android:id="@+id/edit_btn"
+            android:layout_gravity="center_horizontal|top"
+            android:background="@drawable/btnn"
+            android:textColor="#7eb1ff"/>
+    </LinearLayout>
+
+</RelativeLayout>

@@ -1,0 +1,15 @@
+<component name="libraryTable">
+  <library name="libs">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../Aviary-SDK/libs/aviary-library.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../Aviary-SDK/libs/aviary-headless-library.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../Aviary-SDK/libs/android-support-v4.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../Aviary-SDK/libs/imageviewtouch.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../Aviary-SDK/libs/abtest.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../Aviary-SDK/libs/horizontalvariablelistview.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../Aviary-SDK/libs/aviary-tracking.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

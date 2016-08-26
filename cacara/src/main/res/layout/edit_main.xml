@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+    android:background="@drawable/bg3">
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="分享"
+        android:id="@+id/share_btn"
+        android:layout_above="@+id/set_btn"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="設定"
+        android:id="@+id/set_btn"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="儲存"
+        android:id="@+id/save_btn"
+        android:layout_above="@+id/share_btn"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/ibtn_up"
+        android:layout_above="@+id/save_btn"
+        android:layout_alignParentLeft="true"
+        android:background="@drawable/rigtht_con" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/ibtn_down"
+        android:layout_above="@+id/save_btn"
+        android:layout_alignParentRight="true"
+        android:background="@drawable/left_con" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/esa"
+        android:layout_above="@+id/save_btn"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/sty1_2" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="370dp"
+        android:id="@+id/edaa"
+        android:layout_gravity="left|center_vertical"
+        android:layout_alignParentLeft="true"
+        android:layout_above="@+id/imageButton" />
+
+
+</RelativeLayout>

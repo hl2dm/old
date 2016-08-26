@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent" android:layout_height="match_parent"
+	android:orientation="horizontal"
+        >
+
+    <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+
+
+        <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="86dp"
+                android:layout_height="145dp"
+                android:layout_gravity="center_horizontal|top">
+
+            <ImageView
+            android:src="@drawable/imggalss"
+            android:layout_height="94dp"
+            android:layout_width="fill_parent"
+            android:id="@+id/img"
+            android:focusable="false"></ImageView>
+
+            <Button
+                android:layout_width="fill_parent"
+                android:layout_height="20dp"
+                android:text="@string/str_go_me"
+                android:id="@+id/edit_btn_news"
+                android:background="@drawable/btnn"
+                android:textColor="#7eb1ff"
+                android:layout_weight="0.16"/>
+        </LinearLayout>
+
+        <LinearLayout
+			android:id="@+id/linearLayout1"
+			android:orientation="vertical"
+			android:layout_height="wrap_content"
+			android:layout_width="wrap_content">
+			<TextView
+				android:layout_height="wrap_content"
+				android:layout_width="204dp"
+				android:text="TextView"
+				android:id="@+id/iifo"></TextView>
+
+            <TextView
+				android:layout_height="wrap_content"
+				android:layout_width="fill_parent"
+				android:text="TextView"
+				android:id="@+id/info"></TextView>
+
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:text="Small Text"
+                    android:id="@+id/infoo"
+                    android:layout_gravity="left|center_vertical"/>
+
+            <TextView
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content"
+                    android:text="TextView"
+                    android:id="@+id/title"
+                    android:layout_gravity="left|center_vertical"/>
+        </LinearLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>

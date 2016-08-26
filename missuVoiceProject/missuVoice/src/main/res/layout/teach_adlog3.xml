@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/teach_bg">
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/teach3_next_btn"
+        android:background="@drawable/nexy"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/teach3_back_btn"
+        android:layout_alignBottom="@+id/teach3_next_btn"
+        android:layout_alignParentLeft="true"
+        android:background="@drawable/back" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="現在開始將開始引導您進行預設思念語音\n設定第一個回應語音|早安|"
+        android:id="@+id/textView"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="37dp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="開始"
+        android:id="@+id/Record_start_btn1"
+        android:layout_below="@+id/textView"
+        android:layout_alignLeft="@+id/textView"
+        android:background="@drawable/reco" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="結束"
+        android:id="@+id/Record_stop_btn1"
+        android:layout_alignTop="@+id/Record_start_btn1"
+        android:layout_toRightOf="@+id/Record_start_btn1"
+        android:background="@drawable/stop" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="測試"
+        android:id="@+id/Record_play_btn1"
+        android:layout_alignTop="@+id/Record_start_btn1"
+        android:layout_toRightOf="@+id/Record_stop_btn1"
+        android:background="@drawable/play" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="早安"
+        android:id="@+id/Record_timer1"
+        android:layout_below="@+id/textView"
+        android:layout_toRightOf="@+id/Record_play_btn1" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="測試"
+        android:id="@+id/Record_play_btn2"
+        android:layout_alignTop="@+id/Record_start_btn2"
+        android:layout_toLeftOf="@+id/Record_timer1"
+        android:background="@drawable/play" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="結束"
+        android:id="@+id/Record_stop_btn2"
+        android:layout_alignTop="@+id/Record_play_btn2"
+        android:layout_toLeftOf="@+id/Record_play_btn2"
+        android:background="@drawable/stop" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="開始"
+        android:id="@+id/Record_start_btn2"
+        android:layout_below="@+id/textView3"
+        android:layout_toLeftOf="@+id/Record_stop_btn1"
+        android:background="@drawable/reco" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="午安"
+        android:id="@+id/Record_timer2"
+        android:layout_alignTop="@+id/Record_play_btn2"
+        android:layout_alignLeft="@+id/Record_timer1" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="設定第一個回應語音|午安|"
+        android:id="@+id/textView3"
+        android:layout_below="@+id/Record_start_btn1"
+        android:layout_alignLeft="@+id/Record_start_btn1" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="設定第一個回應語音|晚安|"
+        android:id="@+id/textView2"
+        android:layout_below="@+id/Record_play_btn2"
+        android:layout_alignLeft="@+id/Record_start_btn2" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="開始"
+        android:id="@+id/Record_start_btn3"
+        android:layout_below="@+id/textView2"
+        android:layout_toLeftOf="@+id/Record_stop_btn2"
+        android:background="@drawable/reco" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="結束"
+        android:id="@+id/Record_stop_btn3"
+        android:layout_below="@+id/textView2"
+        android:layout_toLeftOf="@+id/Record_play_btn2"
+        android:background="@drawable/stop" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="測試"
+        android:id="@+id/Record_play_btn3"
+        android:layout_below="@+id/textView2"
+        android:layout_toLeftOf="@+id/Record_timer2"
+        android:background="@drawable/play" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="晚安"
+        android:id="@+id/Record_timer3"
+        android:layout_below="@+id/textView2"
+        android:layout_alignLeft="@+id/Record_timer2" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="開始"
+        android:id="@+id/Record_start_btn4"
+        android:layout_below="@+id/fg"
+        android:layout_alignLeft="@+id/fg"
+        android:background="@drawable/reco" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="最後請您設定無法辨識的語音"
+        android:id="@+id/fg"
+        android:layout_below="@+id/Record_start_btn3"
+        android:layout_alignLeft="@+id/Record_start_btn3" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="結束"
+        android:id="@+id/Record_stop_btn4"
+        android:layout_alignTop="@+id/Record_start_btn4"
+        android:layout_toLeftOf="@+id/Record_play_btn4"
+        android:background="@drawable/stop" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="測試"
+        android:id="@+id/Record_play_btn4"
+        android:layout_alignTop="@+id/Record_stop_btn4"
+        android:layout_alignLeft="@+id/Record_play_btn3"
+        android:background="@drawable/play" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="無法辨識"
+        android:id="@+id/Record_timer4"
+        android:layout_alignTop="@+id/Record_play_btn4"
+        android:layout_alignLeft="@+id/Record_timer3" />
+
+</RelativeLayout>

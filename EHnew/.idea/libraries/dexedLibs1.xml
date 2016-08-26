@@ -1,0 +1,35 @@
+<component name="libraryTable">
+  <library name="dexedLibs1">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/libs/bin/dexedLibs/android-support-v4-f4ace5b3c8dea6fdc19eee675caf2b36.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libs/bin/dexedLibs/libGoogleAnalyticsV2-00b08590da3de98b7405fd012e923cd3.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libs/bin/dexedLibs/android-support-v4-3985c48695a9284b690611f2fb60d5ab.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libs/bin/dexedLibs/android-support-v4-69434131683792d8f095a3601d242ea9.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libs/bin/dexedLibs/jsoup-1.7.1-0264db0c462eef65cfe9a7e7d5b70c49.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libs/bin/dexedLibs/jsoup-1.7.1-b0c0dc605ef61c3b770c99c64a6b8180.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libs/bin/dexedLibs/android-support-v4-655b6ec90c9a56f6dcb5edbe52a8121d.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libs/bin/dexedLibs/annotations-1f4e70a2582ed5d67a3cae9106506f00.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libs/bin/dexedLibs/annotations-3744c11d05cf38c9d0225c3a00be5186.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libs/bin/dexedLibs/jsoup-1.7.1-948e852d1c08d70ec1402d96264d47d9.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libs/bin/dexedLibs/GoogleAdMobAdsSdk-4.3.1-261d39c1eef7a77c66c0508fc630c4be.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libs/bin/dexedLibs/jsoup-1.7.1-09a318040df91e00c5cdc51e1fa5e432.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libs/bin/dexedLibs/libGoogleAnalyticsV2-5cc92997bcc86becd35b7a724a8aa796.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libs/bin/dexedLibs/annotations-a26e04b0da32cbf87d7747f3c42ae0c8.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libs/bin/dexedLibs/jsoup-1.7.1-1c388c05750fa7120fd4e7ea40db5061.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libs/bin/dexedLibs/android-support-v4-064747d1f834977157eec29329d4fcd5.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libs/bin/dexedLibs/annotations-e3ac6b1ecbb8131bc78fd5e24c50bb11.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libs/bin/dexedLibs/android-support-v4-859e5b5558052a37a8c111e0e8c4c450.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libs/bin/dexedLibs/jsoup-1.7.1-20f5e30ab36b83b125a728d4b530b930.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libs/bin/dexedLibs/GoogleAdMobAdsSdk-4.3.1-0f8c0b92e8074fb2ef3a8faca704fb14.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libs/bin/dexedLibs/android-support-v4-112ec86608e636b97a492bbbd2a91fdb.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libs/bin/dexedLibs/annotations-c739d057af347457e4a1bced3a847cc2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libs/bin/dexedLibs/android-support-v4-4eeec20a7a5756f0007fc5604f5612bb.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libs/bin/dexedLibs/android-support-v4-4329c004a64d690190d592440cad109e.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libs/bin/dexedLibs/annotations-40019de16d46bc3005456fcbbc83ea26.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libs/bin/dexedLibs/android-support-v4-b0aea09d383b22dc0f66b4f0f93e99ff.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libs/bin/dexedLibs/android-support-v4-fb9e73eb656c9ccfcd3b313f015aa454.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

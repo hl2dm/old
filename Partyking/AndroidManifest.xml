@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+	package="dm.fast.partykings" android:versionCode="6"
+	android:versionName="1.4">
+	<uses-sdk android:minSdkVersion="11" />
+	<application android:icon="@drawable/ccon" android:label="@string/app_name">
+		<activity android:name="dm.fast.partykings.index" android:label="@string/app_name">
+			<intent-filter>
+				<action android:name="android.intent.action.MAIN" />
+				<category android:name="android.intent.category.LAUNCHER" />
+			</intent-filter>
+		</activity>
+        <receiver android:name="dm.fast.partykings.sss">
+            <intent-filter>
+                <action android:name="WAKEUP"/>
+            </intent-filter>
+        </receiver>
+
+        <activity android:name="dm.fast.partykings.sta" android:label="@string/app_name" />
+        <activity android:name="dm.fast.partykings.stau" android:label="@string/app_name" />
+        <activity android:name="dm.fast.partykings.CallAlarm" android:label="@string/app_name" />
+        <activity android:name="dm.fast.partykings.staadd" android:label="@string/app_name" />
+        <activity android:name="simple.ListView3" android:label="@string/app_name" />
+        <activity android:name="simple.ListViewnews" android:label="@string/app_name" />
+        <service android:name="dm.fast.partykings.AlarmAlert"></service>
+
+
+
+        <!-- 當鬧鈴時間到達時要執行的程式 -->
+
+	</application>
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+    <uses-permission android:name="android.permission.VIBRATE" />
+</manifest>

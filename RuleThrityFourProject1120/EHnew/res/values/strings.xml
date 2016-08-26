@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">EHBrowser1.2</string>
+    <string name="button_first">FIRST</string>
+    <string name="button_last">LAST</string>
+    <string name="classL">語系分類</string>
+    <string name="classT">標籤分類</string>
+    <string name="classS">漫種分類</string>
+    <string name="chin">Chinese</string>
+    <string name="jpne">Japanese</string>
+    <string name="eng">English</string>
+    <string name="koo">Korean</string>
+     <string name="RUS">Russian</string>
+         <string name="set">set</string>
+    <string name="New">News</string>
+    <string name="TOP">HOTTOP</string>
+ <string name="PAG">Complete the number of sheets:</string>
+      <string name="end">All Complete the number of sheets:</string>
+ <string name="RES">loading。。</string>
+ <string name="WEL">welcome</string>
+   <string name="Nextpag">Next</string>
+      <string name="New1">new beginning</string>
+       <string name="New2">The within page has visible</string>
+        <string name="New3">Classification system removed again, support for multi-page, delete some error</string>
+                <string name="News">Update log</string>
+                <string name="New4">Welcome to the era of high-definition, with the low quality quick preview to say goodbye</string>
+                <string name="nextpage">nextpage</string>
+                <string name="prviewpage">prviewpage</string>
+                <string name="seach_btn">seach</string>
+                <string name="New5">1.Fix BUG 2.Increase the paging function 3.Search system regression and classification system</string>
+                <string name="fanle">class</string>
+                 <string name="rape">rape</string>
+                  <string name="big_breasts">big_breasts</string>
+                   <string name="bikini">bikini</string>
+                   <string name="swimsuit">swimsuit</string>
+                   <string name="bike_shorts">bikeshorts</string>                   
+</resources>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/index">
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/camera_ibtn"
+        android:background="@drawable/ic_con2"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="71dp"
+        android:layout_marginBottom="153dp" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/photo_ibtn"
+        android:background="@drawable/ic_con3"
+        android:layout_alignTop="@+id/camera_ibtn"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="64dp" />
+
+</RelativeLayout>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+       xmlns:app="http://schemas.android.com/apk/lib/com.google.ads"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:background="#ffffff"
+    android:padding="4dip" >
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/vp_OO"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true" >
+
+    </android.support.v4.view.ViewPager>
+   <com.google.ads.AdView
+            android:id="@+id/adView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:adSize="BANNER"
+            app:adUnitId="a150f2b96999f96"
+            app:loadAdOnCreate="true" >
+        </com.google.ads.AdView>
+    <Button
+        android:id="@+id/next"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/vp_OO"
+        android:layout_alignParentLeft="true"
+        android:layout_alignRight="@+id/vp_OO"
+        android:startColor="#449def"
+        android:centerColor="#2f6699"
+        android:endColor="#449def"
+        android:angle="270"
+        android:text="@string/Nextpag" />
+
+</RelativeLayout>
